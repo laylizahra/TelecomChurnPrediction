@@ -290,7 +290,7 @@ Department of Mathematics, Institut Teknologi Sepuluh Nopember (ITS), Surabaya
 
 | Name | Role | GitHub |
 |---|---|---|
-| Haqi Ardika Ramadani | Team member | [@username](https://github.com/username) |
+| Haqi Ardika Ramadani | Team member | [@username](https://github.com/HaqinyaLuffy) |
 | Raychana Maharani Zahra | Team member | [@username](https://github.com/zahraychana) |
 | Layli Nurul Fatimah Zahra | Team member | [@username](https://github.com/laylizahra) |
 
