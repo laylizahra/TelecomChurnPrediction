@@ -10,7 +10,7 @@
 
 *Small Project for Introduction to Machine Learning, Institut Teknologi Sepuluh Nopember (ITS), Surabaya.*
 
-> 📎 **All charts and diagrams (method flow, confusion matrix, feature importance, risk segmentation, overfitting check) are in the presentation file: [`docs/MIDTERM_MACHINE_LEARNING.pptx`](docs/MIDTERM_MACHINE_LEARNING.pptx).** This README summarizes the results in text and tables.
+> 📎 **All charts and diagrams (method flow, confusion matrix, feature importance, risk segmentation, overfitting check) are in the presentation file: [`MIDTERM MACHINE LEARNING.pdf`](MIDTERM%20MACHINE%20LEARNING.pdf).** This README summarizes the results in text and tables.
 
 ---
 
@@ -260,24 +260,28 @@ Predicted probabilities closely match actual churn rates, so the segments are we
 
 ---
 
-**Main libraries:** `pandas`, `numpy`, `scikit-learn`, `catboost`, `optuna`, `matplotlib`, `seaborn`
+## 🚀 Quick Start
 
-> 📝 Replace the file names above with your actual notebook/script names.
+```bash
+git clone https://github.com/laylizahra/TelecomChurnPrediction.git
+cd TelecomChurnPrediction
+pip install pandas numpy scikit-learn catboost optuna matplotlib seaborn plotly
+jupyter notebook "Final_Code_Midterm_ML (1).ipynb"
+```
+
+Make sure `DATA_PATH` in the notebook points to `WA_Fn-UseC_-Telco-Customer-Churn.csv` (in the repository root).
+
+**Main libraries:** `pandas`, `numpy`, `scikit-learn`, `catboost`, `optuna`, `matplotlib`, `seaborn`, `plotly`
 
 ---
 
 ## 📁 Repository Structure
 
-> Adjust to match your actual files.
-
 ```
-├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── notebooks/
-│   └── churn_catboost.ipynb
-├── docs/
-│   └── MIDTERM_MACHINE_LEARNING.pptx   # full presentation with all charts
-├── requirements.txt
+├── Final_Code_Midterm_ML (1).ipynb        # full pipeline: EDA, feature engineering, tuning, evaluation
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # IBM Telco Customer Churn dataset
+├── MIDTERM MACHINE LEARNING.pdf           # presentation with all charts and diagrams
+├── LICENSE
 └── README.md
 ```
 
@@ -290,9 +294,9 @@ Department of Mathematics, Institut Teknologi Sepuluh Nopember (ITS), Surabaya
 
 | Name | Role | GitHub |
 |---|---|---|
-| Haqi Ardika Ramadani | Team member | [@username](https://github.com/HaqinyaLuffy) |
-| Raychana Maharani Zahra | Team member | [@username](https://github.com/zahraychana) |
-| Layli Nurul Fatimah Zahra | Team member | [@username](https://github.com/laylizahra) |
+| Haqi Ardika Ramadani | Team member | [@HaqinyaLuffy](https://github.com/HaqinyaLuffy) |
+| Raychana Maharani Zahra | Team member | [@zahraychana](https://github.com/zahraychana) |
+| Layli Nurul Fatimah Zahra | Team member | [@laylizahra](https://github.com/laylizahra) |
 
 **Course Instructor:** Mohammad Iqbal, S.Si., M.Si., Ph.D.
 
